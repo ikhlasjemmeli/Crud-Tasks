@@ -1,20 +1,6 @@
-//const express = require("express");
-//const app = express();
-
-
-/*app.get("/tasks",(req,res)=>{
-   res.send("hello world");
-});
-
-// Start the server
-app.listen(3001, () => {
-    console.log("Server listening on port 3001");
-    });*/
-
-
-    const express = require("express");
-    const bodyParser = require("body-parser");
-    const app = express();
+const express = require("express");
+const bodyParser = require("body-parser");
+const app = express();
     // Create a simple in-memory database of tasks
     const tasks = [];
     // Add a middleware to parse JSON data in the request body
